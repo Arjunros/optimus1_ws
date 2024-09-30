@@ -1,0 +1,498 @@
+[0.096s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.096s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75c6672472b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75c66733b9a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75c66733b9a0>>, mixin_verb=('build',))
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.236s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arjun/optimus1_ws'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(ros_arduino_bridge) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo_msgs) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo_msgs) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo_msgs) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo_msgs) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo_msgs) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo_msgs) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr' with type 'ros.ament_cmake' and name 'amr'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ldlidar_sl_ros2' with type 'ros.ament_cmake' and name 'ldlidar_sl_ros2'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.279s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/arjun/optimus1_ws/install
+[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/arjun/optimus_ws/install
+[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/arjun/opt_ws/install
+[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/arjun/ros2_ws/install
+[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/arjun/js_ws/install
+[0.281s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/arjun/jetbot_ws/install
+[0.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 395 installed packages in /opt/ros/humble
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'cmake_target' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'cmake_clean_first' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'cmake_force_configure' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'ament_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.335s] DEBUG:colcon.colcon_core.verb:Building package 'amr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arjun/optimus1_ws/build/amr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arjun/optimus1_ws/install/amr', 'merge_install': False, 'path': '/home/arjun/optimus1_ws/src/amr', 'symlink_install': True, 'test_result_base': None}
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.335s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arjun/optimus1_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arjun/optimus1_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/arjun/optimus1_ws/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_target' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_sl_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arjun/optimus1_ws/build/ldlidar_sl_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2', 'merge_install': False, 'path': '/home/arjun/optimus1_ws/src/ldlidar_sl_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arjun/optimus1_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arjun/optimus1_ws/install/serial', 'merge_install': False, 'path': '/home/arjun/optimus1_ws/src/serial', 'symlink_install': True, 'test_result_base': None}
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arjun/optimus1_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/arjun/optimus1_ws/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arjun/optimus1_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arjun/optimus1_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/arjun/optimus1_ws/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[0.337s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.338s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.338s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arjun/optimus1_ws/serial_motor_demo_msgs' with build type 'ament_cmake'
+[0.338s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arjun/optimus1_ws/serial_motor_demo_msgs'
+[0.341s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.346s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arjun/optimus1_ws/src/amr' with build type 'ament_cmake'
+[0.346s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arjun/optimus1_ws/src/amr'
+[0.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.350s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arjun/optimus1_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[0.350s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arjun/optimus1_ws/src/diffdrive_arduino'
+[0.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arjun/optimus1_ws/src/ldlidar_sl_ros2' with build type 'ament_cmake'
+[0.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arjun/optimus1_ws/src/ldlidar_sl_ros2'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arjun/optimus1_ws/src/serial' with build type 'ament_cmake'
+[0.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arjun/optimus1_ws/src/serial'
+[0.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arjun/optimus1_ws/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs
+[0.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/amr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arjun/optimus1_ws/src/amr -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arjun/optimus1_ws/install/amr
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arjun/optimus1_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arjun/optimus1_ws/install/diffdrive_arduino
+[0.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arjun/optimus1_ws/src/ldlidar_sl_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arjun/optimus1_ws/install/ldlidar_sl_ros2
+[0.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arjun/optimus1_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arjun/optimus1_ws/install/serial
+[0.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/amr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arjun/optimus1_ws/src/amr -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arjun/optimus1_ws/install/amr
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/amr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/amr -- -j8 -l8
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/amr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/amr -- -j8 -l8
+[0.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arjun/optimus1_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arjun/optimus1_ws/install/serial
+[0.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/serial -- -j8 -l8
+[0.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/amr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arjun/optimus1_ws/build/amr
+[0.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr)
+[0.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/amr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arjun/optimus1_ws/build/amr
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/amr' for CMake module files
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/amr' for CMake config files
+[0.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr', 'cmake_prefix_path')
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/amr/share/amr/hook/cmake_prefix_path.ps1'
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/amr/share/amr/hook/cmake_prefix_path.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/amr/share/amr/hook/cmake_prefix_path.sh'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/amr/bin'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/amr/lib/pkgconfig/amr.pc'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/amr/lib/python3.10/site-packages'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/amr/bin'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/amr/share/amr/package.ps1'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arjun/optimus1_ws/install/amr/share/amr/package.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/amr/share/amr/package.sh'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/amr/share/amr/package.bash'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/amr/share/amr/package.zsh'
+[0.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arjun/optimus1_ws/install/amr/share/colcon-core/packages/amr)
+[0.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr)
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/amr' for CMake module files
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/amr' for CMake config files
+[0.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr', 'cmake_prefix_path')
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/amr/share/amr/hook/cmake_prefix_path.ps1'
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/amr/share/amr/hook/cmake_prefix_path.dsv'
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/amr/share/amr/hook/cmake_prefix_path.sh'
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/amr/bin'
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/amr/lib/pkgconfig/amr.pc'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/amr/lib/python3.10/site-packages'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/amr/bin'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/amr/share/amr/package.ps1'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arjun/optimus1_ws/install/amr/share/amr/package.dsv'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/amr/share/amr/package.sh'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/amr/share/amr/package.bash'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/amr/share/amr/package.zsh'
+[0.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arjun/optimus1_ws/install/amr/share/colcon-core/packages/amr)
+[0.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/serial -- -j8 -l8
+[0.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arjun/optimus1_ws/build/serial
+[0.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial' for CMake module files
+[0.856s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial' for CMake config files
+[0.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arjun/optimus1_ws/build/serial
+[0.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[0.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial/lib'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial/bin'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial/lib/pkgconfig/serial.pc'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial/lib/python3.10/site-packages'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial/bin'
+[0.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial/share/serial/package.ps1'
+[0.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arjun/optimus1_ws/install/serial/share/serial/package.dsv'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial/share/serial/package.sh'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial/share/serial/package.bash'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial/share/serial/package.zsh'
+[0.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arjun/optimus1_ws/install/serial/share/colcon-core/packages/serial)
+[0.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial' for CMake module files
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial' for CMake config files
+[0.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[0.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[0.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial/lib'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial/bin'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial/lib/pkgconfig/serial.pc'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial/lib/python3.10/site-packages'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial/bin'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial/share/serial/package.ps1'
+[0.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arjun/optimus1_ws/install/serial/share/serial/package.dsv'
+[0.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial/share/serial/package.sh'
+[0.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial/share/serial/package.bash'
+[0.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial/share/serial/package.zsh'
+[0.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arjun/optimus1_ws/install/serial/share/colcon-core/packages/serial)
+[0.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arjun/optimus1_ws/src/ldlidar_sl_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arjun/optimus1_ws/install/ldlidar_sl_ros2
+[0.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/ldlidar_sl_ros2 -- -j8 -l8
+[1.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/ldlidar_sl_ros2 -- -j8 -l8
+[1.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arjun/optimus1_ws/build/ldlidar_sl_ros2
+[1.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_sl_ros2)
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2' for CMake module files
+[1.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arjun/optimus1_ws/build/ldlidar_sl_ros2
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2' for CMake config files
+[1.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_sl_ros2', 'cmake_prefix_path')
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.ps1'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.sh'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/lib'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/bin'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/lib/pkgconfig/ldlidar_sl_ros2.pc'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/lib/python3.10/site-packages'
+[1.050s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/bin'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.ps1'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.sh'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.bash'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.zsh'
+[1.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/colcon-core/packages/ldlidar_sl_ros2)
+[1.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_sl_ros2)
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2' for CMake module files
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2' for CMake config files
+[1.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_sl_ros2', 'cmake_prefix_path')
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.ps1'
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.dsv'
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.sh'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/lib'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/bin'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/lib/pkgconfig/ldlidar_sl_ros2.pc'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/lib/python3.10/site-packages'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/bin'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.sh'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.bash'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.zsh'
+[1.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arjun/optimus1_ws/install/ldlidar_sl_ros2/share/colcon-core/packages/ldlidar_sl_ros2)
+[1.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arjun/optimus1_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arjun/optimus1_ws/install/diffdrive_arduino
+[1.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/diffdrive_arduino -- -j8 -l8
+[1.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/diffdrive_arduino -- -j8 -l8
+[1.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arjun/optimus1_ws/build/diffdrive_arduino
+[1.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino' for CMake module files
+[1.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arjun/optimus1_ws/build/diffdrive_arduino
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino' for CMake config files
+[1.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino/lib'
+[1.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino/bin'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino/bin'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[1.195s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arjun/optimus1_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[1.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino' for CMake module files
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino' for CMake config files
+[1.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino/lib'
+[1.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino/bin'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/diffdrive_arduino/bin'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[1.217s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arjun/optimus1_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[1.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/arjun/optimus1_ws/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[1.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[1.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arjun/optimus1_ws/build/serial_motor_demo_msgs
+[1.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs' for CMake module files
+[1.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arjun/optimus1_ws/build/serial_motor_demo_msgs
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs' for CMake config files
+[1.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[1.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[1.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[1.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[1.916s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib'
+[1.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/bin'
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/bin'
+[1.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[1.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[1.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[1.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[1.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[1.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[1.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs' for CMake module files
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs' for CMake config files
+[1.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[1.986s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib'
+[1.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[1.988s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/bin'
+[1.988s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[1.988s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[1.988s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/bin'
+[1.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[1.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[1.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[1.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[1.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[1.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[1.992s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arjun/optimus1_ws/serial_motor_demo' with build type 'ament_python'
+[1.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[1.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[1.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[1.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[1.994s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.295s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arjun/optimus1_ws/serial_motor_demo'
+[2.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.734s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/arjun/optimus1_ws/install/serial_motor_demo/share/ament_index/resource_index/packages/serial_motor_demo
+[2.734s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo/package.xml
+[2.734s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/arjun/optimus1_ws/install/serial_motor_demo/lib/serial_motor_demo/driver
+[2.734s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/arjun/optimus1_ws/install/serial_motor_demo/lib/serial_motor_demo/gui
+[2.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arjun/optimus1_ws/build/serial_motor_demo': LD_LIBRARY_PATH=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib:/home/arjun/optimus1_ws/install/serial/lib:/home/arjun/optimus1_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/arjun/optimus1_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/arjun/optimus1_ws/build/serial_motor_demo/build --no-deps symlink_data --force
+[3.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath_develop')
+[3.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
+[3.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arjun/optimus1_ws/build/serial_motor_demo' returned '0': LD_LIBRARY_PATH=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib:/home/arjun/optimus1_ws/install/serial/lib:/home/arjun/optimus1_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/arjun/optimus1_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/arjun/optimus1_ws/build/serial_motor_demo/build --no-deps symlink_data --force
+[3.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
+[3.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
+[3.143s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo' for CMake module files
+[3.144s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo' for CMake config files
+[3.144s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo/lib'
+[3.144s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo/bin'
+[3.144s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[3.144s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages'
+[3.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[3.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[3.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[3.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[3.146s] Level 1:colcon.colcon_core.environment:checking '/home/arjun/optimus1_ws/install/serial_motor_demo/bin'
+[3.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[3.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[3.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[3.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[3.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[3.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[3.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arjun/optimus1_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[3.148s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.148s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.148s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.148s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.153s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.153s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.153s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.165s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arjun/optimus1_ws/install/local_setup.ps1'
+[3.166s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arjun/optimus1_ws/install/_local_setup_util_ps1.py'
+[3.167s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arjun/optimus1_ws/install/setup.ps1'
+[3.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arjun/optimus1_ws/install/local_setup.sh'
+[3.172s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arjun/optimus1_ws/install/_local_setup_util_sh.py'
+[3.173s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arjun/optimus1_ws/install/setup.sh'
+[3.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arjun/optimus1_ws/install/local_setup.bash'
+[3.176s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arjun/optimus1_ws/install/setup.bash'
+[3.178s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arjun/optimus1_ws/install/local_setup.zsh'
+[3.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arjun/optimus1_ws/install/setup.zsh'

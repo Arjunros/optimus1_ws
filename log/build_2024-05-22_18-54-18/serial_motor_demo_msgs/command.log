@@ -1,0 +1,1 @@
+Invoking command in '/home/arjun/optimus1_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/serial_motor_demo_msgs -- -j8 -l8

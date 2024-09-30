@@ -1,0 +1,9 @@
+/home/arjun/optimus1_ws/build/amr/CMakeFiles/uninstall.dir
+/home/arjun/optimus1_ws/build/amr/CMakeFiles/amr_uninstall.dir
+/home/arjun/optimus1_ws/build/amr/CMakeFiles/test.dir
+/home/arjun/optimus1_ws/build/amr/CMakeFiles/edit_cache.dir
+/home/arjun/optimus1_ws/build/amr/CMakeFiles/rebuild_cache.dir
+/home/arjun/optimus1_ws/build/amr/CMakeFiles/list_install_components.dir
+/home/arjun/optimus1_ws/build/amr/CMakeFiles/install.dir
+/home/arjun/optimus1_ws/build/amr/CMakeFiles/install/local.dir
+/home/arjun/optimus1_ws/build/amr/CMakeFiles/install/strip.dir

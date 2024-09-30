@@ -1,0 +1,50 @@
+[0.026s] Invoking command in '/home/arjun/optimus1_ws/build/amr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/amr -- -j8 -l8
+[0.058s] Invoked command in '/home/arjun/optimus1_ws/build/amr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/amr -- -j8 -l8
+[0.097s] Invoking command in '/home/arjun/optimus1_ws/build/amr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arjun/optimus1_ws/build/amr
+[0.106s] -- Install configuration: ""
+[0.106s] -- Execute custom install script
+[0.106s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//config/drive_bot.rviz
+[0.106s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//config/empty.yaml
+[0.106s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//config/gaz_ros2_ctl_use_sim.yaml
+[0.106s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//config/gazebo_params.yaml
+[0.107s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//config/joystick.yaml
+[0.107s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//config/main.rviz
+[0.107s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//config/map.rviz
+[0.107s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//config/mapper_params_online_async.yaml
+[0.107s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//config/my_controllers.yaml
+[0.107s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//config/nav2_params.yaml
+[0.107s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//config/twist_mux.yaml
+[0.107s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//config/view_bot.rviz
+[0.107s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//description/gazebo_control.xacro
+[0.108s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//description/inertial_macros.xacro
+[0.108s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//description/lidar.xacro
+[0.108s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//description/lifting.xacro
+[0.108s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//description/robot.urdf.xacro
+[0.108s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//description/robot_core.xacro
+[0.108s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//description/ros2_control.xacro
+[0.108s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//launch/joystick.launch.py
+[0.109s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//launch/launch_robot.launch.py
+[0.109s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//launch/launch_sim.launch.py
+[0.109s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//launch/localization_launch.py
+[0.109s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//launch/navigation_launch.py
+[0.109s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//launch/online_async_launch.py
+[0.109s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//launch/rplidar.launch.py
+[0.109s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//launch/rsp.launch.py
+[0.110s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//worlds/empty.world
+[0.110s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr//worlds/obstacles.world
+[0.110s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/ament_index/resource_index/package_run_dependencies/amr
+[0.110s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/ament_index/resource_index/parent_prefix_path/amr
+[0.110s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr/environment/ament_prefix_path.sh
+[0.110s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr/environment/ament_prefix_path.dsv
+[0.111s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr/environment/path.sh
+[0.111s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr/environment/path.dsv
+[0.111s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr/local_setup.bash
+[0.112s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr/local_setup.sh
+[0.112s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr/local_setup.zsh
+[0.112s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr/local_setup.dsv
+[0.112s] -- Symlinking: /home/arjun/optimus1_ws/install/amr/share/amr/package.dsv
+[0.122s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/ament_index/resource_index/packages/amr
+[0.123s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr/cmake/amrConfig.cmake
+[0.123s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr/cmake/amrConfig-version.cmake
+[0.123s] -- Up-to-date symlink: /home/arjun/optimus1_ws/install/amr/share/amr/package.xml
+[0.127s] Invoked command in '/home/arjun/optimus1_ws/build/amr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/arjun/optimus1_ws/build/amr

@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages",
+        "/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages",
+        "/home/arjun/opt_ws/build/my_bot_controller",
+        "/home/arjun/opt_ws/install/my_bot_controller/lib/python3.10/site-packages",
+        "/home/arjun/ros2_ws/build/my_robot_controller",
+        "/home/arjun/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages",
+        "/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages",
+        "/home/arjun/opt_ws/build/my_bot_controller",
+        "/home/arjun/opt_ws/install/my_bot_controller/lib/python3.10/site-packages",
+        "/home/arjun/ros2_ws/build/my_robot_controller",
+        "/home/arjun/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

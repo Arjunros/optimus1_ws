@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/arjun/optimus1_ws/build/amr
+-- Install configuration: ""
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config/empty.yaml
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config/nav2_params.yaml
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config/main.rviz
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config/drive_bot.rviz
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config/gazebo_params.yaml
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config/gaz_ros2_ctl_use_sim.yaml
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config/my_controllers.yaml
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config/twist_mux.yaml
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config/joystick.yaml
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config/view_bot.rviz
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config/map.rviz
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//config/mapper_params_online_async.yaml
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//description
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//description/lidar.xacro
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//description/robot.urdf.xacro
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//description/gazebo_control.xacro
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//description/lifting.xacro
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//description/robot_core.xacro
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//description/ros2_control.xacro
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//description/inertial_macros.xacro
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//launch
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//launch/localization_launch.py
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//launch/rsp.launch.py
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//launch/joystick.launch.py
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//launch/rplidar.launch.py
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//launch/launch_sim.launch.py
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//launch/launch_robot.launch.py
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//launch/navigation_launch.py
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//launch/online_async_launch.py
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//worlds
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//worlds/empty.world
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr//worlds/obstacles.world
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/ament_index/resource_index/package_run_dependencies/amr
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/ament_index/resource_index/parent_prefix_path/amr
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr/environment/ament_prefix_path.sh
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr/environment/ament_prefix_path.dsv
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr/environment/path.sh
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr/environment/path.dsv
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr/local_setup.bash
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr/local_setup.sh
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr/local_setup.zsh
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr/local_setup.dsv
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr/package.dsv
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/ament_index/resource_index/packages/amr
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr/cmake/amrConfig.cmake
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr/cmake/amrConfig-version.cmake
+-- Installing: /home/arjun/optimus1_ws/install/amr/share/amr/package.xml

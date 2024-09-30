@@ -1,0 +1,12 @@
+[0.032s] Invoking command in '/home/arjun/optimus1_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/diffdrive_arduino -- -j8 -l8
+[0.120s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[0.348s] In file included from [01m[K/home/arjun/optimus1_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:34[m[K,
+[0.348s]                  from [01m[K/home/arjun/optimus1_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15[m[K:
+[0.349s] [01m[K/home/arjun/optimus1_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Klibserial/SerialPort.h: No such file or directory
+[0.349s]     7 | #include [01;31m[K<libserial/SerialPort.h>[m[K
+[0.349s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.349s] compilation terminated.
+[0.350s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o] Error 1
+[0.350s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[0.350s] gmake: *** [Makefile:146: all] Error 2
+[0.352s] Invoked command in '/home/arjun/optimus1_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/diffdrive_arduino -- -j8 -l8

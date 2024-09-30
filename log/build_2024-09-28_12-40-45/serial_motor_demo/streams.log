@@ -1,0 +1,20 @@
+[0.652s] Invoking command in '/home/arjun/optimus1_ws/build/serial_motor_demo': LD_LIBRARY_PATH=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib:/home/arjun/optimus1_ws/install/serial/lib:/home/arjun/optimus1_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/arjun/optimus1_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/arjun/optimus1_ws/build/serial_motor_demo/build --no-deps symlink_data
+[0.855s] /home/arjun/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.855s]   warnings.warn(
+[0.894s] running develop
+[1.039s] running egg_info
+[1.039s] writing serial_motor_demo.egg-info/PKG-INFO
+[1.039s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[1.040s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[1.040s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[1.040s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[1.042s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[1.043s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[1.044s] running build_ext
+[1.045s] Creating /home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[1.046s] Installing driver script to /home/arjun/optimus1_ws/install/serial_motor_demo/lib/serial_motor_demo
+[1.046s] Installing gui script to /home/arjun/optimus1_ws/install/serial_motor_demo/lib/serial_motor_demo
+[1.046s] 
+[1.046s] Installed /home/arjun/optimus1_ws/build/serial_motor_demo
+[1.046s] running symlink_data
+[1.068s] Invoked command in '/home/arjun/optimus1_ws/build/serial_motor_demo' returned '0': LD_LIBRARY_PATH=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib:/home/arjun/optimus1_ws/install/serial/lib:/home/arjun/optimus1_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/arjun/optimus1_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/arjun/optimus1_ws/build/serial_motor_demo/build --no-deps symlink_data

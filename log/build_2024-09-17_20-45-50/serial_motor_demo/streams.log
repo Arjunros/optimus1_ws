@@ -1,0 +1,24 @@
+[0.658s] Invoking command in '/home/arjun/optimus1_ws/serial_motor_demo': LD_LIBRARY_PATH=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib:/home/arjun/optimus1_ws/install/serial/lib:/home/arjun/optimus1_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/arjun/optimus1_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/serial_motor_demo build --build-base /home/arjun/optimus1_ws/build/serial_motor_demo/build install --record /home/arjun/optimus1_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
+[0.847s] /home/arjun/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.847s]   warnings.warn(
+[0.869s] running egg_info
+[0.870s] writing ../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[0.870s] writing dependency_links to ../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[0.870s] writing entry points to ../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[0.870s] writing requirements to ../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[0.871s] writing top-level names to ../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[0.872s] reading manifest file '../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.873s] writing manifest file '../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.873s] running build
+[0.873s] running build_py
+[0.874s] running install
+[0.874s] running install_lib
+[0.875s] running install_data
+[0.875s] running install_egg_info
+[0.877s] removing '/home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.877s] Copying ../build/serial_motor_demo/serial_motor_demo.egg-info to /home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[0.878s] running install_scripts
+[0.893s] Installing driver script to /home/arjun/optimus1_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.894s] Installing gui script to /home/arjun/optimus1_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.894s] writing list of installed files to '/home/arjun/optimus1_ws/build/serial_motor_demo/install.log'
+[0.916s] Invoked command in '/home/arjun/optimus1_ws/serial_motor_demo' returned '0': LD_LIBRARY_PATH=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib:/home/arjun/optimus1_ws/install/serial/lib:/home/arjun/optimus1_ws/install/diffdrive_arduino/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/arjun/optimus1_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/serial_motor_demo build --build-base /home/arjun/optimus1_ws/build/serial_motor_demo/build install --record /home/arjun/optimus1_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data

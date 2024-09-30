@@ -1,0 +1,43 @@
+[0.747s] Invoking command in '/home/arjun/optimus1_ws/serial_motor_demo': AMENT_PREFIX_PATH=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arjun/optimus1_ws/build/serial_motor_demo/prefix_override:/home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/serial_motor_demo build --build-base /home/arjun/optimus1_ws/build/serial_motor_demo/build install --record /home/arjun/optimus1_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[0.965s] /home/arjun/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.965s]   warnings.warn(
+[0.993s] running egg_info
+[0.993s] creating ../build/serial_motor_demo/serial_motor_demo.egg-info
+[0.994s] writing ../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[0.994s] writing dependency_links to ../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[0.994s] writing entry points to ../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[0.995s] writing requirements to ../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[0.995s] writing top-level names to ../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[0.995s] writing manifest file '../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.999s] reading manifest file '../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[1.000s] writing manifest file '../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[1.000s] running build
+[1.000s] running build_py
+[1.000s] creating /home/arjun/optimus1_ws/build/serial_motor_demo/build
+[1.000s] creating /home/arjun/optimus1_ws/build/serial_motor_demo/build/lib
+[1.000s] creating /home/arjun/optimus1_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[1.000s] copying serial_motor_demo/driver.py -> /home/arjun/optimus1_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[1.001s] copying serial_motor_demo/__init__.py -> /home/arjun/optimus1_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[1.001s] copying serial_motor_demo/gui.py -> /home/arjun/optimus1_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[1.001s] running install
+[1.001s] running install_lib
+[1.002s] creating /home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[1.003s] copying /home/arjun/optimus1_ws/build/serial_motor_demo/build/lib/serial_motor_demo/driver.py -> /home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[1.003s] copying /home/arjun/optimus1_ws/build/serial_motor_demo/build/lib/serial_motor_demo/__init__.py -> /home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[1.003s] copying /home/arjun/optimus1_ws/build/serial_motor_demo/build/lib/serial_motor_demo/gui.py -> /home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[1.003s] byte-compiling /home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/driver.py to driver.cpython-310.pyc
+[1.004s] byte-compiling /home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/__init__.py to __init__.cpython-310.pyc
+[1.005s] byte-compiling /home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/gui.py to gui.cpython-310.pyc
+[1.006s] running install_data
+[1.007s] creating /home/arjun/optimus1_ws/install/serial_motor_demo/share/ament_index
+[1.007s] creating /home/arjun/optimus1_ws/install/serial_motor_demo/share/ament_index/resource_index
+[1.007s] creating /home/arjun/optimus1_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[1.007s] copying resource/serial_motor_demo -> /home/arjun/optimus1_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[1.007s] copying package.xml -> /home/arjun/optimus1_ws/install/serial_motor_demo/share/serial_motor_demo
+[1.007s] running install_egg_info
+[1.009s] Copying ../build/serial_motor_demo/serial_motor_demo.egg-info to /home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[1.010s] running install_scripts
+[1.029s] Installing driver script to /home/arjun/optimus1_ws/install/serial_motor_demo/lib/serial_motor_demo
+[1.029s] Installing gui script to /home/arjun/optimus1_ws/install/serial_motor_demo/lib/serial_motor_demo
+[1.029s] writing list of installed files to '/home/arjun/optimus1_ws/build/serial_motor_demo/install.log'
+[1.056s] Invoked command in '/home/arjun/optimus1_ws/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arjun/optimus1_ws/build/serial_motor_demo/prefix_override:/home/arjun/optimus1_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/arjun/optimus1_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/serial_motor_demo build --build-base /home/arjun/optimus1_ws/build/serial_motor_demo/build install --record /home/arjun/optimus1_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed

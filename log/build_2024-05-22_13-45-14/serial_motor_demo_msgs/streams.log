@@ -1,0 +1,34 @@
+[0.049s] Invoking command in '/home/arjun/optimus1_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_generator_c[0m
+[0.136s] [  2%] Built target serial_motor_demo_msgs__cpp
+[0.142s] [ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[0.149s] [ 12%] Built target ament_cmake_python_copy_serial_motor_demo_msgs
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_cpp[0m
+[0.154s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.159s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c[0m
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c[0m
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.173s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[0.173s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[0.178s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.182s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[0.187s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[0.187s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[0.204s] [ 76%] Built target serial_motor_demo_msgs
+[0.224s] [ 78%] Built target serial_motor_demo_msgs__py
+[0.235s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_generator_py[0m
+[0.249s] [ 87%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[0.257s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.263s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c__pyext[0m
+[0.270s] [ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.271s] [ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[0.271s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[0.417s] running egg_info
+[0.417s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[0.417s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[0.417s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[0.420s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[0.420s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[0.439s] [100%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg

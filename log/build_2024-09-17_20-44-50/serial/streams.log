@@ -1,0 +1,8 @@
+[0.022s] Invoking command in '/home/arjun/optimus1_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/serial -- -j8 -l8
+[0.078s] [ 42%] Built target gtest_main
+[0.078s] [ 42%] Built target serial
+[0.078s] [ 57%] Built target gtest
+[0.104s] [ 71%] Built target serial-test-timer
+[0.105s] [ 85%] Built target serial_example
+[0.108s] [100%] Built target serial-test
+[0.127s] Invoked command in '/home/arjun/optimus1_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arjun/optimus1_ws/install/serial_motor_demo:/home/arjun/opt_ws/install/my_bot_controller:/home/arjun/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/arjun/optimus1_ws/build/serial -- -j8 -l8
